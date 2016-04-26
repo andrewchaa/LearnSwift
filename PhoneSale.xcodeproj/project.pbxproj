@@ -14,6 +14,8 @@
 		49EE30D21CCD631C001E5699 /* PhoneSaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE30D11CCD631C001E5699 /* PhoneSaleUITests.swift */; };
 		49EE30E01CCD6649001E5699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EE30DF1CCD6649001E5699 /* Assets.xcassets */; };
 		49EE30E41CCDE12F001E5699 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE30E31CCDE12F001E5699 /* ProductViewController.swift */; };
+		49EE30E81CCF7F52001E5699 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE30E71CCF7F52001E5699 /* ContactViewController.swift */; };
+		49EE30EA1CCFB46F001E5699 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EE30E91CCFB46F001E5699 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		49EE30D31CCD631C001E5699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EE30DF1CCD6649001E5699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49EE30E31CCDE12F001E5699 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		49EE30E71CCF7F52001E5699 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		49EE30E91CCFB46F001E5699 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				49EE30BA1CCD631B001E5699 /* LaunchScreen.storyboard */,
 				49EE30BD1CCD631B001E5699 /* Info.plist */,
 				49EE30E31CCDE12F001E5699 /* ProductViewController.swift */,
+				49EE30E71CCF7F52001E5699 /* ContactViewController.swift */,
+				49EE30E91CCFB46F001E5699 /* ProductsTableViewController.swift */,
 			);
 			path = PhoneSale;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49EE30E41CCDE12F001E5699 /* ProductViewController.swift in Sources */,
+				49EE30EA1CCFB46F001E5699 /* ProductsTableViewController.swift in Sources */,
 				49EE30B21CCD631B001E5699 /* AppDelegate.swift in Sources */,
+				49EE30E81CCF7F52001E5699 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
